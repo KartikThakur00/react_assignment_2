@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react_assignment_2/static/css/main.260c169d.css",
+    "main.js": "/react_assignment_2/static/js/main.b5044696.js",
+    "static/media/edit.svg": "/react_assignment_2/static/media/edit.fd16c2213f5f2cee438b4a594b84ba48.svg",
+    "index.html": "/react_assignment_2/index.html",
+    "static/media/delete.svg": "/react_assignment_2/static/media/delete.befee77e52a51b6f2714b6c8ae96c27a.svg",
+    "static/media/cross.svg": "/react_assignment_2/static/media/cross.6c0306ef9f0aa4bf9abcb8bff486d59c.svg",
+    "static/media/tick.svg": "/react_assignment_2/static/media/tick.6bad5717b7e4c4193361fe8985e860a8.svg",
+    "main.260c169d.css.map": "/react_assignment_2/static/css/main.260c169d.css.map",
+    "main.b5044696.js.map": "/react_assignment_2/static/js/main.b5044696.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.260c169d.css",
+    "static/js/main.b5044696.js"
+  ]
+}
