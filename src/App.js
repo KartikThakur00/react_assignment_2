@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Header from "./components/Header";
+import TodoElement from "./components/TodoElements";
+import "./App.css";
+import { nanoid } from "nanoid";
 
-function App() {
+const App = () => {
+
+  const [todos, setTodos] = useState([
+    {
+      id: nanoid(),
+      title: "Demo Element 1",
+      content: "This is a Demo note",
+    },
+    {
+      id: nanoid(),
+      title: "Demo Element 2",
+      content: "This is a demo note",
+    },
+  ]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        <img src="./public/" alt="" />
+      <Header todos={todos} setTodos={setTodos} />
+      <TodoElement todos={todos} setTodos={setTodos} />
     </div>
   );
-}
+};
 
 export default App;
